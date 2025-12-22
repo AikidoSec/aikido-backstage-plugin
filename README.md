@@ -150,4 +150,4 @@ For plugin-specific development instructions, see each package README.
 
 ## License
 
-See `LICENSE`.
+See [`LICENSE`](LICENSE).
