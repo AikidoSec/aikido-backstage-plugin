@@ -2,6 +2,10 @@
 
 This Backstage plugin integrates with the Aikido Partner API to provide vulnerability insights for your repositories. It exposes an endpoint that allows you to retrieve vulnerability data for repositories, workspaces, or repository IDs.
 
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by Backstage, Spotify AB, or Aikido Security BV.
+
 ## Features
 
 - Retrieve vulnerability insights for specific repositories

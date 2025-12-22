@@ -2,6 +2,10 @@
 
 This plugin integrates comprehensive security insights from Aikido directly into your Backstage instance. It provides a unified view of security issues including cloud misconfigurations, leaked secrets, SAST findings, and vulnerabilities across all your project repositories, helping teams identify and address security concerns efficiently.
 
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by Backstage, Spotify AB, or Aikido Security BV.
+
 ## Features
 
 - **Overview Card**: A condensed view showing aggregated security metrics by severity (critical, high, medium, low)
