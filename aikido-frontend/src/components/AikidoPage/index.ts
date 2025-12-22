@@ -1,0 +1,1 @@
+export { AikidoPage } from './AikidoPage';

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aikido-api-client-backend
+  description: A backend plugin to provide Aikido insights from the Aikido API
+  title: Aikido API Client Plugin for Backstage
+  tags:
+    - typescript
+    - aikido
+    - backend
+    - backstage-plugin
+spec:
+  type: library
+  owner: security
+  lifecycle: production
+  subcomponentOf: backstage

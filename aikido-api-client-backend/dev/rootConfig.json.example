@@ -1,0 +1,12 @@
+{
+  "data": {
+    "catalog": {
+      "providers": {
+        "aikido": {
+          "clientId": "mock-client-id",
+          "authSecret": "mock-auth-secret"
+        }
+      }
+    }
+  }
+}

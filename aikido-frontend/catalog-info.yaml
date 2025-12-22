@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aikido-frontend
+  description: A frontend plugin to render Aikido insights in Backstage entities
+  title: Aikido Frontend Plugin for Backstage
+  tags:
+    - typescript
+    - aikido
+    - frontend
+    - backstage-plugin
+spec:
+  type: library
+  owner: security
+  lifecycle: production
+  subcomponentOf: backstage

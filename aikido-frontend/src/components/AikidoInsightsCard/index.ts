@@ -1,0 +1,1 @@
+export { AikidoInsightsCard } from './AikidoInsightsCard';

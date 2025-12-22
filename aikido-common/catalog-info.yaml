@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aikido-common
+  description: A common library for Aikido insights in Backstage entities
+  title: Aikido Common Library for Backstage
+  tags:
+    - typescript
+    - aikido
+    - frontend
+    - backend
+    - backstage-plugin
+spec:
+  type: library
+  owner: security
+  lifecycle: production
+  subcomponentOf: backstage
