@@ -21,10 +21,7 @@ export function calculateRepoAggregates(
 
   if (!insights || typeof insights !== 'object') {
     // eslint-disable-next-line no-console
-    console.warn(
-      '[calculateRepoAggregates] Invalid insights object:',
-      insights,
-    );
+    console.warn('[calculateRepoAggregates] Invalid insights object');
     return result;
   }
 
@@ -33,8 +30,7 @@ export function calculateRepoAggregates(
     if (!category || typeof category !== 'object') {
       // eslint-disable-next-line no-console
       console.warn(
-        `[calculateRepoAggregates] Invalid category for ${categoryName}:`,
-        category,
+        `[calculateRepoAggregates] Invalid category for ${categoryName}`,
       );
       return;
     }
@@ -72,8 +68,6 @@ export function calculateRepoAggregates(
   });
 
   result.total = result.critical + result.high + result.medium + result.low;
-  // eslint-disable-next-line no-console
-  console.log('[calculateRepoAggregates] Final aggregated counts:', result);
   return result;
 }
 
@@ -86,8 +80,7 @@ export function processInsights(rawInsightsData: {
   if (!rawInsightsData || typeof rawInsightsData !== 'object') {
     // eslint-disable-next-line no-console
     console.warn(
-      '[processInsights] Warning: Invalid insights data (not an object):',
-      rawInsightsData,
+      '[processInsights] Warning: Invalid insights data (not an object)',
     );
 
     return {
