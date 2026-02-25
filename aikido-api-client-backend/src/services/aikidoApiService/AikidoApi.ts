@@ -175,7 +175,7 @@ export class AikidoApi {
     const cachedInsights = this.cache.get<AikidoInsights>(cacheKey);
     if (cachedInsights) {
       this.logger.debug(
-        `Using cached repo issues insights for repo ID (${repoId}): ${JSON.stringify(cachedInsights)}`,
+        `Using cached repo issues insights for repo ID (${repoId})`,
       );
       return cachedInsights;
     }
@@ -216,7 +216,7 @@ export class AikidoApi {
     const insights = this.convertIssuesToInsights(issues);
     this.cache.set(cacheKey, insights);
     this.logger.debug(
-      `Generated insights for repo ID (${repoId}): ${JSON.stringify(insights)}`,
+      `Generated insights for repo ID (${repoId}) with ${Object.keys(insights).length} issue types`,
     );
     return insights;
   }
