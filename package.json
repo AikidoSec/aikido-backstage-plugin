@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": [
+    "aikido-common",
+    "aikido-api-client-backend",
+    "aikido-frontend"
+  ]
+}
