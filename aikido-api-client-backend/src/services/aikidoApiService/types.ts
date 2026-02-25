@@ -1,4 +1,9 @@
-import { AikidoCommonObjectInsights } from '@internal/backstage-plugin-aikido-common';
+import {
+  AikidoInsights,
+  AikidoCommonObjectInsights,
+} from '@internal/backstage-plugin-aikido-common';
+
+export type { AikidoInsights };
 
 // These are the types used by the Aikido Partner API responses
 export interface AikidoToken {
@@ -26,15 +31,6 @@ export interface AikidoRepo {
   is_active: boolean;
   configuration_issues: Map<string, string>[];
   repo_url: string;
-}
-
-export interface AikidoInsights {
-  [category: string]: {
-    critical: number;
-    high: number;
-    medium: number;
-    low: number;
-  };
 }
 
 export interface AikidoIssue {
