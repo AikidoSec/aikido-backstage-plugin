@@ -24,6 +24,24 @@ aikido-backstage-plugin/
 └── aikido-frontend/             # Backstage frontend plugin (UI components)
 ```
 
+### Architecture
+
+```mermaid
+flowchart LR
+  subgraph BS[Backstage]
+    C[Catalog Entities]
+    UI[Entity Page]
+    FE[aikido-frontend]
+    BE[aikido-api-client-backend]
+  end
+  subgraph AK[Aikido]
+    API[Aikido Partner API]
+  end
+
+  C --> UI --> FE -->|POST /api/aikido-api-client/insights| BE -->|fetches| API
+  API --> BE --> FE --> UI
+```
+
 ## Development Workflow
 
 Each submodule can be developed in isolation using the Backstage CLI:
