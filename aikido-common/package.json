@@ -32,6 +32,6 @@
     "dist"
   ],
   "dependencies": {
-    "@internal/backstage-plugin-aikido-api-client-backend": "workspace:^"
+    "@internal/backstage-plugin-aikido-api-client-backend": "*"
   }
 }
