@@ -1,4 +1,11 @@
-import { AikidoInsights } from '@internal/backstage-plugin-aikido-api-client-backend';
+export interface AikidoInsights {
+  [category: string]: {
+    critical: number;
+    high: number;
+    medium: number;
+    low: number;
+  };
+}
 
 export type AikidoCommonInsights = AikidoInsights;
 
