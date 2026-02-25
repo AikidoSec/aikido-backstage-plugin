@@ -31,7 +31,5 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "@internal/backstage-plugin-aikido-api-client-backend": "*"
-  }
+  "dependencies": {}
 }
