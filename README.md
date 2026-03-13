@@ -2,10 +2,6 @@
 
 This repository contains Backstage plugins that integrate Aikido security insights into Backstage.
 
-## Disclaimer
-
-This project is not affiliated with, endorsed by, or sponsored by Backstage, Spotify AB, or Aikido Security BV.
-
 ## Packages
 
 - **`aikido-frontend`** (`@internal/backstage-plugin-aikido-frontend`)
